@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Outfit:wght@400;700&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+:root {
+--main-font: 'Outfit', sans-serif;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    background-color: hsl(212, 45%, 89%);
+}
+
+/*Main Container*/
+.main-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/*card container*/
+.card-container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*image container*/
+.container-image {
+    width: 100%;
+    margin: auto;
+
+}
+
+/*img itself*/
+img {
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+/*h1*/
+h1 {
+   padding-bottom: 0;
+   padding-top: 20px;
+   display: inline-block;
+   color: hsl(218, 44%, 22%);
+   text-align: center;
+ margin: 0;
+}
+
+/*our paragraph*/
+
+p {
+    
+    color:hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+} 
+/*styling attribuiton*/
+
+.attribution{
+    margin-top:20px;
+   
+}
+
+
+/* desktop design */
+
+@media only screen and (min-width: 600px) {
+    .main-container {
+        width: 60%;
+        margin: auto;
+
+    }
+@media only screen and (min-width: 1000px) {
+    .main-container {
+        width: 25%;
+        margin-top: 50px;
+
+    }
+    p {
+       
+        padding:0 10px 0 10px;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .main-container {
+        width: 20%;
+        
+    }
