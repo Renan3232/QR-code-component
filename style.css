@@ -121,3 +121,9 @@ p {
         width: 23%;
         
     }
+
+    p {
+        padding: 20px 27px 0 27px;
+    }
+
+}
