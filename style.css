@@ -14,43 +14,60 @@ body {
     box-sizing: border-box;
     font-family: var(--main-font);
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /*Main Container*/
 .main-container {
-    width: 70%;
-    margin: auto;
-    margin-top: 50px;
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+
+ 
+    
+
+
+  }
 }
 
-/*card container*/
-.card-container {
-    background-color: hsl(0, 0%, 100%);
-    padding: 20px;
-    border-radius: 10px;
-}
 
 /*image container*/
 .container-image {
     width: 100%;
-    margin: auto;
+    
+   
+
+    
+
+
+    
 
 }
 
 /*img itself*/
 img {
-    width: 100%;
-    position: relative;
+    display: block;
+    width: 90%;
+    margin:auto;
+    margin-top: 15px;
     border-radius: 10px;
+   
+    
 }
+
 /*h1*/
 h1 {
    padding-bottom: 0;
-   padding-top: 20px;
+   padding: 20px 20px 0 20px;
    display: inline-block;
    color: hsl(218, 44%, 22%);
    text-align: center;
- margin: 0;
+   margin: 0;
+   font-size: 20px;
 }
 
 /*our paragraph*/
@@ -68,16 +85,17 @@ p {
 /*styling attribuiton*/
 
 .attribution{
-    margin-top:20px;
+    position: relative;
+    top:20px;
    
 }
 
 
 /* desktop design */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
     .main-container {
-        width: 60%;
+        width: 50%;
         margin: auto;
 
     }
@@ -88,8 +106,13 @@ p {
 
     }
     p {
-       
-        padding:0 10px 0 10px;
+       font-size: 15px;
+        padding:0 20px 0 20px;
+    }
+
+    h1 {
+        font-size: 23px;
+        padding:20px 25px 0 25px;
     }
 }
 @media only screen and (min-width: 1300px){
